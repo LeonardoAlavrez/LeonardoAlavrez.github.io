@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- 
+    Nombre: Leonardo Alvarez Martinez
+    Materia: Programacion Web I
+    Fecha: 30 de marzo de 2023
+    descripcion:
+-->
+<html lang="es">
+    <head>
+        <title>Unidad 02 - ejercicio 7</title>
+        <meta charset="utf-8">
+        <meta  name "author" content="Leonardo Alvarez Martinez">
+        <meta  name "revised" content="">
+        <meta  name "description" content="">
+        <style>
+            p{background-color: black; color: lawngreen;}
+            .posx:hover{transform: translateX(25px);}
+            .posy:hover{transform: translateY(25px);}
+            .posxy:hover{transform: translate(25px,25px);}
+            .rotx:hover{transform: rotateX(45deg);}
+            .roty:hover{transform: rotateY(45deg);}
+            .rotz:hover{transform: rotateZ(45deg);}
+            .sizex:hover{transform: scaleX(1.5);}
+            .sizey:hover{transform: scaleY(1.5);}
+            .sizez:hover{transform: scale(0.5,0.5);}
+            .skewx:hover{transform: skewX(30deg);}
+            .skewy:hover{transform: skewY(15deg);}
+            .skewxy:hover{transform: skew(30deg,15deg);}
+            .mul:hover{transform: matrix(1.00,0.00,0.00,2.00,50,0);;}
+            .efecto{height: 75%; font-size: 75%; transition: height 0.5s, font-size 0.5s;}
+            .efecto:hover{height: 125%; font-size: 125%;}
+            .rainbow{width: 100px; height: 100px; background-color: red;
+            animation-name: rgb; animation-duration: 5s;}
+            @keyframes rgb{
+                0% {background-color: red;}
+                25% {background-color: orange;}
+                50% {background-color: yellow;}
+                75% {background-color: green;}
+                100% {background-color: blue;}
+            }
+        </style>
+    </head>
+    <body>
+        <hgroup>
+            <h1>Efectos css</h1>
+            <h2>translate</h2>
+            <p>UPSLP(NORMAL)</p>
+            <p class="posx">UPSLP(translate X)</p>
+            <p class="posy">UPSLP(translate Y)</p>
+            <p class="posxy">UPSLP(translate X,Y)</p>
+        </hgroup>
+        <hgroup>
+            <h2>Rotate</h2>
+            <p class="rotx">UPSLP(translate X)</p>
+            <p class="roty">UPSLP(translate Y)</p>
+            <p class="rotz">UPSLP(translate Z)</p>
+        </hgroup>
+        <hgroup>
+            <h2>Scale</h2>
+            <p class="sizex">UPSLP(scale X)</p>
+            <p class="sizey">UPSLP(scale Y)</p>
+            <p class="sizez">UPSLP(scale Z)</p>
+        </hgroup>
+        <hgroup>
+            <h2>Skew</h2>
+            <p class="skewx">UPSLP(skew X)</p>
+            <p class="skewy">UPSLP(skew Y)</p>
+            <p class="skewxy">UPSLP(skew Z)</p>
+        </hgroup>
+        <hgroup>
+            <h2>Multiple</h2>
+            <p class="mul">UPSLP(Mover y escalar)</p>
+            <p class="efecto">UPSLP(Mover y escalar)</p>
+        </hgroup>
+        <hgroup>
+            <h2>...</h2>
+            <div class="efecto"><a href="#">Menu 1</a></div>
+            <div class="efecto"><a href="#">Menu 2</a></div>
+            <div class="efecto"><a href="#">Menu 3</a></div>
+            <div class="efecto"><a href="#">Menu 4</a></div>
+            <div class="efecto"><a href="#">Menu 5</a></div>
+        </hgroup>
+        <hgroup>
+            <h2>Animation</h2>
+            <div class="rainbow"></div>
+        </hgroup>
+    </body>
+</html>

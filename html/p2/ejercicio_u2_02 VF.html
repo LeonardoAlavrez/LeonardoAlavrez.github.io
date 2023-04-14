@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--
+    Nombre: Leonardo Alvarez Martinez
+    Materia: Programacio web I
+    Fecha: 03 de marzo de 2023
+    Descripcion: Etiquetas para formularios
+-->
+<html lang="es">
+    <head>
+        <title>Parcial 2, Ejercicio </title>
+        <meta charset="utf-8">
+        <meta name="author"content="Leonardo Alvarez Martinez">
+        <meta name="revised"content="">
+        <meta name="Descripcion" content="form,label, button, input, select, details, textarea, progress, text, password, hidden, checkbox, file, data, color, time, datetime, month, week, number, range, reset, submit, min, max, placeholder, value, checked, list.">
+    </head>
+    <body>
+        <hgroup>
+            <h1>Formularios web</h1>
+            <form>
+                <p>Formulario<br>Web</p>
+                <label>Etiqueta label</label>
+                <br><label>Control (boton):</label><br><button>Aceptar</button>
+                <br><label>Control (Input text):</label><br><Input type="text"></Input>
+                <br><label>Control (Input: contraseña):</label><br><Input type="password"></Input>
+                <br><label>Control (Input: oculto):</label><br><Input type="hidden"></Input>
+                <br><label>Control (Input: Radio):</label><br><Input type="radio"></Input>
+                <br><label>Control (Input: Verificacion):</label><br><Input type="checkbox"></Input>
+                <br><label>Control (input: Archivos)</label><br><input type="file">
+                <br><label>Control (input: Botón)</label><br><input type="button" value="Cancelar">
+                <br><label>Control (input: Colores)</label><br><input type="color">
+                <br><label>Control (input: Hora)</label><br><input type="time">
+                <br><label>Control (input: Fecha y hora)</label><br><input type="date"></b>
+                <br><label>Control (input: Semana)</label><br><input type="week">
+                <br><label>Control (input: Mes)</label><br><input type="month">
+                <br><label>Control (input: Numero)</label><br><input type="number">
+                <br><label>Control (Input: reinicio)</label><br><input type="reset">
+                <br><label>Control (Input: enviar)</label><br><input type="submit">
+                <br><label>Control (Lista despegable): </label>
+                <p>Radio button sencillo</p>
+                <select>
+                    <option>---Seleccione---</option>
+                    <option>Verdadero</option>
+                    <option>Falso</option>
+                </select>
+            </form>
+        </hgroup>
+        <hgroup>
+            <h3>Ejemplos</h3>
+            <form>
+                <p>Radio button</p>
+                <label>1. Se puede decir que el lenguaje HTML es facil?</label><br>
+                <input type="radio" name="pregunta_1">Verdadero
+                <br>
+                <input type="radio" name="pregunta_1">Falso
+                <br><p>Radio button multiple</p>
+                <label>2. Son las siglas de HyperText Markup Languaje</label><br>
+                <input type="radio" name="pregunta_1">JS
+                <br><input type="radio" name="pregunta_2">CSS
+                <br><input type="radio" name="pregunta_2">HTML
+                <br><input type="radio" name="pregunta_2">PHP
+                <br><input type="radio" name="pregunta_2">SQL
+                <p>Checkbox</p>
+                <label>3. Son las tecnologias aplicadas en programacion web I</label>
+                <br><input type="checkbox">JS
+                <br><input type="checkbox" >CSS
+                <br><input type="checkbox" >HTML
+                <br><input type="checkbox" >PHP
+                <br><input type="checkbox" >SQL
+                <p>Terminos y condiciones</p>
+                <label>4. Acepa estar de acuerdo con todos y cada uno de los terminos y condiciones.</label>
+                <input type="radio" name="term_cond">Aceptar
+                <input type="radio" name="term_cond" checked>Cancelar
+                <button>Continuar</button>
+                <p>Formatos</p>
+                <label>Telefono: </label><input type="tex" placeholder="(444) 123-4567">
+                <br><label>Codigo postal: </label><input type="tex" placeholder="78000">
+                <br><label>Matricula: </label><input type="tex" placeholder="111111" maxlength="" minlength="">
+                <p>Tipos de rangos</p>
+                <label>Numero entre 1 y 10:</label><input type="range" min="1" max="10">
+                <label>Numero entre 1 y 3:</label><input type="range" min="1" max="3">
+                <br><label>Calificacion (0-10): </label><input type="range" min="0" max="10">
+                <p>Estados de la republica</p>
+                <select>
+                    <option>---Seleccione---</option>
+                    <option>Aguascalientes</option> 
+                    <option>Baja California</option>   
+                    <option>Baja California Sur</option>  
+                    <option>Campeche</option>  
+                    <option>Chiapas</option>  
+                    <option>Chihuahua</option>  
+                    <option>Ciudad de México</option>  
+                    <option>Coahuila</option>  
+                    <option>Colima</option>  
+                    <option>Durango</option>  
+                    <option>Estado de México</option>  
+                    <option>Guanajuato</option>   
+                    <option>Guerrero</option>  
+                    <option>Hidalgo</option>  
+                    <option>Jalisco</option>  
+                    <option>Michoacán</option>  
+                    <option>Morelos</option>   
+                    <option>Nayarit</option>   
+                    <option>Nuevo León</option>   
+                    <option>Oaxaca</option>  
+                    <option>Puebla</option>  
+                    <option>Querétaro</option>  
+                    <option>Quintana Roo</option>  
+                    <option>San Luis Potosí</option>  
+                    <option>Sinaloa</option>  
+                    <option>Sonora</option>  
+                    <option>Tabasco</option>   
+                    <option>Tamaulipas</option>  
+                    <option>Tlaxcala</option>  
+                    <option>Veracruz</option>  
+                    <option>Yucatán</option>   
+                    <option>Zacatecas</option>  
+                </select>
+                <br><br><label>Control (ComboBox): </label><input list="listaValores">
+                <datalist id="estados">
+                    <option value="Aguascalientes">
+                    <option value="Baja California"> 
+                    <option value="Baja California Sur">
+                    <option value="Campeche"> 
+                    <option value="Chiapas">
+                    <option value="Chihuahua">  
+                    <option value="Ciudad de México"> 
+                    <option value="Coahuila"> 
+                    <option value="Colima">  
+                    <option value="Durango"> 
+                    <option value="Estado de México"> 
+                    <option value="Guanajuato"> 
+                    <option value="Guerrero"> 
+                    <option value="Hidalgo">  
+                    <option value="Jalisco"> 
+                    <option value="Michoacán"> 
+                    <option value="Morelos">   
+                    <option value="Nayarit">   
+                    <option value="Nuevo León">  
+                    <option value="Oaxaca"> 
+                    <option value="Puebla"> 
+                    <option value="Querétaro"> 
+                    <option value="Quintana Roo">  
+                    <option value="San Luis Potosí"> 
+                    <option value="Sinaloa">  
+                    <option value="Sonora"> 
+                    <option value="Tabasco">  
+                    <option value="Tamaulipas"> 
+                    <option value="Tlaxcala">  
+                    <option value="Veracruz">  
+                    <option value="Yucatán">  
+                    <option value="Zacatecas">
+                </datalist>
+                <br><label>Control (Caja de texto): </label><textarea placeholder="Comentario...."></textarea>
+                <br><label>Control (barra de progreso): </label><progress></progress>
+                <br><label>Control (barra de progreso en 50%): </label><progress min="0" max="100" value="50"></progress>
+                <br><label>Control (barra de progreso en 70%): </label><progress min="0" max="100" value="70"></progress>
+                <br><label>Control (barra de progreso en 90%): </label><progress min="0" max="100" value="90"></progress>
+
+            </form>
+        </hgroup>
+    </body>
+</html>

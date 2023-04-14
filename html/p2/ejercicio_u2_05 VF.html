@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<!--
+    Nombre: Leonardo Alvarez Martinez
+    Materia: Programacio web I
+    Fecha: 22 de marzo de 2023
+    Descripcion: 
+-->
+<html lang="es">
+    <head>
+        <title>Parcial 2, Ejercicio </title>
+        <meta charset="utf-8">
+        <meta name="author"content="Leonardo Alvarez Martinez">
+        <meta name="revised"content="">
+        <style>
+            p{
+                background-color: coral;
+                color: indigo;
+                margin: 25px 10px 5px;
+                text-indent: 10px;
+                text-align: justify;
+                margin: 25px 50px;
+                line-height: 2;
+            }
+            #pEspecial
+            {
+                background-color: crimson;
+                color: aliceblue;
+                text-transform: capitalize;
+                text-indent: 10px;
+                text-align: justify;
+                margin: 25px 50px;
+            }
+            #cuadro
+            {
+                border: 3px solid black;
+                text-indent: 10px;
+                text-align: justify;
+                margin: 25px 50px;
+
+            }
+            th,td
+            {
+                border: 1px dotted gray ;
+                text-indent: 10px;
+                text-align: justify;
+                margin: 25px 50px;
+            }
+            .alterno
+            {
+                background-color: gray;
+                text-indent: 10px;
+                text-align: justify;
+                margin: 25px 50px;
+            }
+            h1:hover, h2:hover,h3:hover
+            {
+                color: black;
+                background-color: crimson;
+                text-transform: uppercase;
+                text-shadow: white 5px 5px 5px;
+                
+            }#cuadro{
+                border: 3px solid black;
+
+            }
+            #cuadro th, #cuadro td{
+                border: 1px dotted gray;
+            }
+            th,td{
+                border: 1px dotted gray;
+            }
+            .alterno{
+                background-color: gray;
+            }
+            h1:hover,h2:hover,td:hover{
+                background-color: #2f4f4f;
+                color: rgb(0,0,0);
+                text-transform: uppercase;
+                text-shadow: blue 5px 5px 10px;
+                font-size: 300%;
+            }
+            ul li:first-child{
+              background-color: greenyellow;
+            }
+            ul li:last-child{
+              background-color: greenyellow;
+            }
+            #mitabla{
+              background-color: aqua;
+              color: black;
+            }
+
+        </style>
+    </head>
+    <body>
+        <hgroup style="color:blue">
+            <h1>CSS</h1>
+            <h2>Estilo en linea</h2>
+            <ul style="color:rebeccapurple; text-decoration: none;">
+                <li style="color:blueviolet; text-decoration: double;"><a href="#"></a>Incio</li>
+                <li style="color:aqua; text-decoration:"><a href="#"></a>Alumnos</li>
+                <li style="color:brown; text-decoration: dotted;"><a href="#"></a>Docentes</li>
+                <li style="color:black; text-decoration: line-through;"><a href="#"></a>Administrativo</li>
+                <li>Administrativo</li>
+            </ul>
+        </hgroup>
+        <hgroup style="color:gold">
+            <h1>CSS</h1>
+            <h2>Parrafos</h2>
+
+                <p style="text-decoration: line-through;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet vestibulum justo. Quisque pharetra magna at felis ornare feugiat. Nunc mi mi, feugiat nec ante a, maximus facilisis sapien. Sed tincidunt neque sit amet mauris sollicitudin, vitae bibendum lectus gravida. Nam ipsum arcu, sagittis eget porttitor eget, imperdiet in arcu. Integer id aliquet orci, ac facilisis lorem. In aliquet massa sit amet tempus vehicula. Vestibulum faucibus odio sit amet aliquet volutpat. Etiam posuere efficitur venenatis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam elit dolor, feugiat quis mi sed, hendrerit semper urna. Nulla quis odio et ex scelerisque hendrerit. Sed sit amet feugiat nunc. Pellentesque ullamcorper neque orci, sit amet aliquet lacus consequat nec. In hendrerit congue sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+                    Praesent pulvinar purus quis sapien sagittis tincidunt. Curabitur quis enim sed purus consectetur dictum eu eget sapien. Donec tempus metus vitae sapien tempus, non consequat nisi luctus. Nam fringilla enim risus, a consequat neque pretium sed. Nulla ac efficitur est. Quisque tincidunt, magna nec faucibus congue, mi ligula maximus erat, ac viverra augue quam id odio. Etiam tincidunt, ante at eleifend tristique, orci mi malesuada erat, in tincidunt nisi tellus non mauris.
+    
+                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> 
+                <p align="center" id="pEspecial" style="text-decoration: ;">Nunc efficitur nisl a nunc blandit, eu venenatis elit iaculis. Proin id consectetur nibh, sed accumsan enim. Proin venenatis massa ipsum, quis iaculis metus dapibus id. Sed hendrerit lectus id massa auctor, in lobortis purus varius. Nulla facilisi. Pellentesque ut tellus sem. Quisque ultrices sollicitudin nisl id molestie. Praesent mollis hendrerit tortor vel facilisis.
+
+                    Nulla rhoncus diam nulla, maximus porta mi tincidunt in. </p> 
+                <p style="text-decoration: overline;">Integer aliquam consequat dui eu porttitor. Mauris varius dui malesuada sem luctus, sed sagittis dolor pretium. Quisque et risus lorem. Quisque elit orci, bibendum ac elit quis, luctus finibus felis. Donec vestibulum in metus a consectetur. Fusce nec sapien eget justo condimentum volutpat et sit amet justo. Nulla commodo justo augue, et volutpat sem gravida ut. Praesent id orci eget leo vestibulum iaculis vel eu lectus. Etiam quis enim pretium ligula viverra aliquam. Suspendisse facilisis, augue quis sollicitudin laoreet, ex massa pretium enim, ac vehicula magna urna nec augue.
+
+                    Nullam faucibus magna vel sagittis interdum. Vivamus sodales libero neque, ac lacinia neque venenatis vel. Phasellus hendrerit libero quis mi rhoncus, quis sagittis dolor tristique. Fusce lacus turpis, interdum in placerat vel, auctor in risus. Etiam volutpat hendrerit fringilla. Nulla a nunc ex. Nam eget sapien tempor, rutrum massa sed, vestibulum arcu. Vestibulum suscipit fermentum est eu facilisis. Vivamus sit amet odio a diam egestas faucibus. Sed in magna pellentesque, bibendum metus sit amet, tincidunt velit. Aliquam et tortor neque. Etiam justo arcu, cursus quis maximus ornare, ultrices molestie arcu. Sed a rhoncus libero. In nulla massa, tincidunt id nulla molestie, dictum tincidunt quam.
+    
+                    Pellentesque id sollicitudin lectus, eu lacinia risus. Ut pellentesque nulla tortor, vel fringilla nibh feugiat ut. Vestibulum non suscipit sapien, eu venenatis felis. Duis sagittis, metus non vulputate rhoncus, urna leo mollis est, a volutpat ex libero sed nibh. Vestibulum diam libero, varius nec purus vel, pulvinar accumsan quam. Sed lectus arcu, semper ac semper sit amet, blandit et risus. Quisque sit amet gravida nisi. Praesent dictum erat hendrerit metus consequat lobortis. Aliquam rhoncus dui aliquet velit commodo ornare. Pellentesque ac iaculis massa. Nulla porttitor neque at sapien fermentum, at suscipit enim dignissim. Mauris at dolor id dolor consequat gravida vel in massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam faucibus feugiat libero vitae fringilla. Vivamus vitae maximus tortor.
+    
+                    Mauris at accumsan ex, sed malesuada lacus. Aliquam turpis justo, feugiat nec accumsan at, aliquam id mi.</p>  
+                <p style="text-decoration: solid;">Ut mollis nisi a elementum auctor. In interdum elementum mauris at gravida. Curabitur sit amet urna et nisl euismod suscipit rutrum quis lorem. Praesent placerat fringilla nunc et laoreet. Nulla et neque laoreet nunc blandit vulputate a ut felis. Nunc nec porta eros.
+
+                    Phasellus sit amet ligula egestas, congue felis eu, gravida ligula. Fusce a odio massa. Mauris scelerisque felis eu iaculis hendrerit. Etiam fermentum, libero in blandit imperdiet, purus urna pellentesque metus, eget interdum lorem nulla eget enim. Ut purus velit, pulvinar non vulputate vel, cursus vel lacus. Cras ornare eget nibh at laoreet. Mauris porta mauris nulla, eu venenatis mi molestie in. Mauris ut lacus cursus, egestas sem quis, ornare ante. Duis quis tincidunt ipsum, sit amet malesuada mauris. Fusce eu congue justo. Duis ut erat nec risus aliquet sollicitudin. Integer commodo laoreet felis ut condimentum. Ut pulvinar nulla et leo aliquet eleifend sed sed tellus. Nam eros leo, accumsan vitae ante vitae, tempus luctus arcu. Proin in suscipit diam. Quisque id diam quam.
+    
+                    Cras euismod quis nisi quis iaculis. Aliquam posuere diam vel quam mattis tempus.</p>  
+                <p style="text-decoration: underline;">Sed bibendum ex id scelerisque commodo. Sed porttitor a purus egestas dapibus. Etiam semper risus ac tortor congue, at fringilla quam consequat. Maecenas vitae accumsan odio. Donec ultricies tellus non tellus porta volutpat. Nullam leo est, placerat ut libero eu, tempus bibendum urna. Nulla sodales arcu leo, ac pulvinar mi tincidunt vitae. Nulla dolor metus, venenatis at hendrerit ac, tincidunt a quam. Mauris eu ipsum diam. Nulla rhoncus ex eget quam pharetra, at volutpat enim ultrices. In in maximus nibh, eget hendrerit quam. Vivamus a magna eget lorem mattis vehicula ac eget arcu. Fusce vestibulum tempus mi sed varius. Quisque tempor velit eu diam efficitur, id fermentum ante convallis.
+
+                    Vestibulum ac augue blandit sapien volutpat luctus. Mauris in condimentum nibh, id tempus ligula. Maecenas convallis aliquam arcu, eget imperdiet ex consectetur a. Cras ut feugiat ligula. Nunc quis erat eget lacus scelerisque consectetur ac eu sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum tellus nibh, eget rutrum turpis congue vel. Aliquam dictum sodales purus, quis consectetur odio euismod vitae. Cras nibh tortor, vulputate a bibendum vitae, congue eget sem. Quisque tortor lacus, imperdiet vel lobortis sit amet, aliquet eu arcu. Aliquam quam tortor, fermentum ut dui a, imperdiet varius nisl. Quisque scelerisque cursus magna id lobortis.</p> 
+        </hgroup>
+        <hgroup>
+            <h1>Tabla</h1>
+            <table id="cuadro">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                    <th>D</th>
+                    <th>E</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="alterno">
+                    <td class="tg-0pky">1</td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0lax"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0pky">2</td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0lax"></td>
+                  </tr>
+                  <tr class="alterno">
+                    <td class="tg-0pky">3</td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0lax"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax">4</td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                  </tr>
+                  <tr class="alterno">
+                    <td class="tg-0lax">5</td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                  </tr>
+                </tbody>
+                </table>
+                <h1>Tabla</h1>
+            <table border=5 id="mitabla"style="background-image: url(Redes-sociales.jpg); size: 2px;">
+                <thead>
+                  <tr>
+                    <th class="tg-0pky"></th>
+                    <th class="tg-0pky">A</th>
+                    <th class="tg-0pky">B</th>
+                    <th class="tg-0pky">C</th>
+                    <th class="tg-0pky">D</th>
+                    <th class="tg-0lax">E</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="tg-0pky">1</td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0lax"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0pky">2</td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0lax"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0pky">3</td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0pky"></td>
+                    <td class="tg-0lax"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax">4</td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax">5</td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                  </tr>
+                </tbody>
+                </table><br>
+    
+    
+    
+                <table style="background-color: black; color: aqua;">
+                  <thead>
+                    <tr>
+                      <th class="tg-0pky"></th>
+                      <th class="tg-0pky">#,0,0</th>
+                      <th class="tg-0pky">0,#,0</th>
+                      <th class="tg-0pky">0,0,#</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    
+                    <tr>
+                      <td >0</td>
+                      <td style="background-color: rgb(32,0,0);"></td>
+                      <td style="background-color: rgb(0,32,0);"></td>
+                      <td style="background-color: rgb(0,0,32);"></td>
+                    </tr>
+                    <tr>
+                      <td >64</td>
+                      <td style="background-color: rgb(64,0,0);"></td>
+                      <td style="background-color: rgb(0,64,0);"></td>
+                      <td style="background-color: rgb(0,0,64);"></td>
+                    </tr>
+                    <tr>
+                      <td class="tg-0pky">128</td>
+                      <td style="background-color: rgb(128,0,0);"></td>
+                      <td style="background-color: rgb(0,128,0);"></td>
+                      <td style="background-color: rgb(0,0,128);"></td>
+                    </tr>
+                    <tr>
+                      <td class="tg-0pky">193</td>
+                      <td style="background-color: rgb(193,0,0);"></td>
+                      <td style="background-color: rgb(0,193,0);"></td>
+                      <td style="background-color: rgb(0,0,193);"></td>
+                    </tr>
+                    <tr>
+                      <td class="tg-0pky">255</td>
+                      <td style="background-color: rgb(225,0,0);"></td>
+                      <td style="background-color: rgb(0,225,0);"></td>
+                      <td style="background-color: rgb(0,0,225);"></td>
+                    </tr>
+                  </tbody>
+                  </table>
+    
+                </table>
+        </hgroup>
+        <hgroup>
+    
+            <ul>
+              <li>Primero</li>
+              <li>Segundo</li>
+              <li>Tercero</li>
+              <li>Cuarto</li>
+              <li>Quinto</li>
+            </ul>
+        </hgroup>
+    </body>
+</html>
